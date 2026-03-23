@@ -1,8 +1,8 @@
 # inventory-control-sample-db
 
 ## Current Status: In Progress
-- Tables (5) with relationships - Completed
-- Queries (4) - Completed
+- Tables with relationships - Completed
+- Queries - Completed
 - Forms - In progress
 - Reports - In progress
 
@@ -18,9 +18,9 @@ Tracks products, suppliers, stock levels and transactions.
 - **tblTransactions** - full audit log of stock movements (IN/OUT/ADJUST)
 
 ## Queries
-- **qryCurrentStock** - live stock levels joined across products and inventory
+- **qryCurrentStock** - stock levels joined across products and inventory
 - **qryLowStock** - filters items at or below reorder level
-- **qryTransactionHistory** - full audit trail with product names
+- **qryTransactionHistory** - full audit of transactions with product names
 - **qryStockByCategory** - summarized stock totals grouped by category
 
 ## Screenshots
